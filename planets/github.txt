@@ -1,0 +1,23 @@
+1. pwd
+2. ls, patterns.txt and symmetry.py
+3. nano patterns.txt
+4. cat patterns.txt
+5. diff -a --supress-common-lines -y patterns.txt symmetry.txt
+6. git mg patterns.txt /~/math/calculus
+7. rm triangle.txt
+8. cd ../math
+9. git init math
+10. git remote add origin <url>
+11. cp symmetry.txt /~/math/
+12. git status. Not tracking b/c it has not been added to staging area
+13. git add symmetry.txt. for all files use git add .
+14. yes. to unstage use git restore --staged
+15. git commit -m "add to math"
+16. git push origin master. Use that branch b/c it only one
+17. git branch applied_math
+18. git checkout applied_math
+19. git add ., git commit -m "add physics", git push origin applied_math. If you switch before this, then all changes will be lost.
+20. git branch. green one is one you are in
+21. git checkout master
+22. git merge applied_math. git push origin master
+
