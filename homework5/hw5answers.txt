@@ -5,5 +5,20 @@
 3. nano patterns.txt
 4. cat patterns.txt
 5. diff -a --suppress-common-lines -y patterns.txt symmetry.txt
-cp patterns.txt /~/math/calculus   can also use git mv
-rm triangle.txt
+6. git mv patterns.txt /~/math/calculus   
+7. rm triangle.txt
+8. cd ../math
+9. git init math
+10. git add math, git commit -m, git push origin master
+11. cp symmetry.txt /~/math/
+12. git status. Not tracking because it has not been added to the staging area
+13. git add symmetry.txt. For all files use git add .
+14. yes. to unstage use git restore --staged
+15. git commit -m "add to math"
+16. git push origin master. Use branch master because that is the only one you have.
+17. git branch applied_math
+18. git checkout applied_math
+19. git add ., git commit -m "add physics", git push origin applied_math. If you switch before committing, then all changes will be lost.
+20. git branch. The green one is the one you are in.
+21. git checkout master
+22. git merge applied_math. git push origin master
